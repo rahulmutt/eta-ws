@@ -2,8 +2,10 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="eta-ws_main" target="1.8" />
-      <module name="eta-ws_test" target="1.8" />
+      <module name="ws-eta_main" target="1.8" />
+      <module name="ws-eta_test" target="1.8" />
+      <module name="ws-kt_main" target="1.8" />
+      <module name="ws-kt_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="HaskellBuildOptions">

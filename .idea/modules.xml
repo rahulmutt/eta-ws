@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eta-ws.iml" filepath="$PROJECT_DIR$/.idea/modules/eta-ws.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eta-ws_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eta-ws_main.iml" group="eta-ws" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eta-ws_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eta-ws_test.iml" group="eta-ws" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ws-eta.iml" filepath="$PROJECT_DIR$/.idea/modules/ws-eta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ws-eta_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ws-eta_main.iml" group="ws-eta" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ws-eta_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ws-eta_test.iml" group="ws-eta" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ws-kt.iml" filepath="$PROJECT_DIR$/.idea/modules/ws-kt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ws-kt_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ws-kt_main.iml" group="ws-kt" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ws-kt_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ws-kt_test.iml" group="ws-kt" />
     </modules>
   </component>
 </project>
