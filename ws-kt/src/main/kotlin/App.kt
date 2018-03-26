@@ -1,6 +1,12 @@
 import ws_eta.Lib
 
-fun main(args: Array<String>) {
-    var x = Lib.foo(3)
-    print(x);
+class App {
+    companion object App {
+        @JvmStatic
+        fun main(args: Array<String>) {
+            val x: Int = Lib.foo(3)
+            print(x)
+        }
+    }
 }
+

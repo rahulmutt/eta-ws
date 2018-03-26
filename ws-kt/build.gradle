@@ -9,10 +9,19 @@ buildscript {
     }
 }
 
+repositories {
+    flatDir {
+        dirs '../ws-eta/build/libs'
+    }
+}
+
 group 'io.nickseagull'
 version '0.1.0'
 
 apply plugin: 'kotlin'
+apply plugin: 'application'
+
+mainClassName = 'App'
 
 repositories {
     mavenCentral()
@@ -20,6 +29,7 @@ repositories {
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    compile "io.nickseagull:ws-eta:0.1.0"
 }
 
 compileKotlin {
