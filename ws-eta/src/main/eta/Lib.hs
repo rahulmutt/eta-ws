@@ -1,5 +1,5 @@
 module Lib where
 
-@Export
-"@static ws_eta.Lib.foo" foo :: Int -> Int
-foo _ = 3
+foreign export java "@static ws_eta.Lib.foo" foo1 :: Int -> Int
+
+foo1 _ = 3
