@@ -3,10 +3,6 @@ apply plugin: 'application'
 
 mainClassName = 'App'
 
-repositories {
-    mavenCentral()
-}
-
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
     compile project(':ws-eta')
